@@ -1,9 +1,12 @@
 "use client"
+import { postUser } from "@/actions/server/auth";
+import { authClient } from "@/app/lib/auth-client";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import toast from "react-hot-toast";
 import { FcGoogle } from "react-icons/fc";
-
+// import { authClient } from "@/lib/auth-client";
 export default function RegisterPage() {
   const [formData, setFormData] = useState({
   name: "",
@@ -29,36 +32,37 @@ const handleRegister = async (
   if (
     !formData.name ||
     !formData.email ||
-    !formData.phone ||
     !formData.password
   ) {
-    alert("Please fill all fields.");
+    toast.error("Please fill all fields");
     return;
   }
 
+  setLoading(true);
+
   try {
-    setLoading(true);
 
-    // API Call
-    console.log(formData);
 
-    /*
-    const response = await fetch("/api/register", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
+    
+    const { data, error } = await authClient.signUp.email({
+      name: formData.name,
+      email: formData.email,
+      password: formData.password,
+      callbackURL: "/dashboard", // optional
     });
 
-    const data = await response.json();
-    */
+    if (error) {
+      toast.error(error.message || "Something went wrong");
+      return;
+    }
 
-    alert("Registration Successful!");
+    console.log(data);
 
-  } catch (error) {
-    console.error(error);
-    alert("Something went wrong!");
+    toast.success("Registration successful!");
+
+  } catch (err) {
+    console.error(err);
+    toast.error("Something went wrong");
   } finally {
     setLoading(false);
   }
