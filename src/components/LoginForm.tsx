@@ -1,5 +1,7 @@
 "use client";
-
+import { authClient } from "@/app/lib/auth-client";
+import toast from "react-hot-toast";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,6 +10,57 @@ import { HiEye, HiEyeOff } from "react-icons/hi";
 
 export default function LoginPage() {
   const [showPassword, setShowPassword] = useState(false);
+  const router = useRouter();
+
+const [loading, setLoading] = useState(false);
+
+const [formData, setFormData] = useState({
+  email: "",
+  password: "",
+});
+const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const { name, value } = e.target;
+
+  setFormData((prev) => ({
+    ...prev,
+    [name]: value,
+  }));
+};
+const handleLogin = async (
+  e: React.FormEvent<HTMLFormElement>
+) => {
+  e.preventDefault();
+
+  if (!formData.email || !formData.password) {
+    toast.error("Please fill all fields");
+    return;
+  }
+
+  setLoading(true);
+
+  try {
+    const { data, error } = await authClient.signIn.email({
+      email: formData.email,
+      password: formData.password,
+    });
+
+    if (error) {
+      toast.error(error.message || "Something went wrong");
+      return;
+    }
+
+    toast.success("Login Successful!");
+
+    console.log(data);
+
+    router.push("/");
+  } catch (err) {
+    console.error(err);
+    toast.error("Something went wrong");
+  } finally {
+    setLoading(false);
+  }
+};
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-zinc-900 to-gray-950 flex items-center justify-center p-6">
@@ -57,7 +110,7 @@ export default function LoginPage() {
               Enter your credentials to access your account.
             </p>
 
-            <form className="mt-10 space-y-6">
+            <form onSubmit={handleLogin} className="mt-10 space-y-6">
 
               {/* Email */}
               <div>
@@ -66,11 +119,14 @@ export default function LoginPage() {
                   Email Address
                 </label>
 
-                <input
-                  type="email"
-                  placeholder="john@example.com"
-                  className="w-full rounded-xl border border-zinc-700 bg-zinc-900/70 px-5 py-3 text-white placeholder:text-zinc-500 outline-none transition-all duration-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20"
-                />
+              <input
+  type="email"
+  name="email"
+  value={formData.email}
+  onChange={handleChange}
+  placeholder="john@example.com"
+  className="w-full rounded-xl border border-zinc-700 bg-zinc-900/70 px-5 py-3 text-white placeholder:text-zinc-500 outline-none transition-all duration-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20"
+/>
 
               </div>
 
@@ -84,10 +140,13 @@ export default function LoginPage() {
                 <div className="relative">
 
                   <input
-                    type={showPassword ? "text" : "password"}
-                    placeholder="••••••••"
-                    className="w-full rounded-xl border border-zinc-700 bg-zinc-900/70 px-5 py-3 pr-14 text-white placeholder:text-zinc-500 outline-none transition-all duration-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20"
-                  />
+  type={showPassword ? "text" : "password"}
+  name="password"
+  value={formData.password}
+  onChange={handleChange}
+  placeholder="••••••••"
+  className="w-full rounded-xl border border-zinc-700 bg-zinc-900/70 px-5 py-3 pr-14 text-white placeholder:text-zinc-500 outline-none transition-all duration-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20"
+/>
 
                   <button
                     type="button"
@@ -119,11 +178,12 @@ export default function LoginPage() {
 
               {/* Login Button */}
               <button
-                type="submit"
-                className="w-full rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 py-3 font-semibold text-white transition duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-indigo-500/30"
-              >
-                Login
-              </button>
+  type="submit"
+  disabled={loading}
+  className="w-full rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 py-3 font-semibold text-white transition duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-indigo-500/30 disabled:opacity-50"
+>
+  {loading ? "Signing In..." : "Login"}
+</button>
 
               {/* Divider */}
               <div className="flex items-center gap-4">

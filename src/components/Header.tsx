@@ -1,7 +1,9 @@
 "use client"
+import { authClient } from "@/app/lib/auth-client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import { useRouter } from "next/navigation";
+import toast from "react-hot-toast";
 export default function Header() {
 const pathname = usePathname();
 
@@ -9,6 +11,26 @@ const pathname = usePathname();
     pathname === path
       ? 'text-[#f5bf42] underline font-bold'
       : 'hover:text-[#f5bf42] hover:underline';
+      const router = useRouter();
+const { data: session, isPending } = authClient.useSession();
+const handleLogout = async () => {
+  try {
+    const { error } = await authClient.signOut();
+
+    if (error) {
+      toast.error(error.message || "Something went wrong");
+      return;
+    }
+
+    toast.success("Logged out successfully!");
+
+    router.push("/login");
+    router.refresh();
+  } catch (err) {
+    console.error(err);
+    toast.error("Logout failed");
+  }
+};
   return (
    <>
 
@@ -41,9 +63,28 @@ const pathname = usePathname();
     </ul>
   </div>
   {/* nav end */}
-  <div className="navbar-end">
-    <a href={"/login"} className="btn btn-primary">Login</a>
-  </div>
+  <div className="navbar-end gap-3">
+  {isPending ? (
+    <span className="loading loading-spinner loading-sm"></span>
+  ) : session ? (
+    <>
+      <span className="font-medium">
+        Hi, {session.user.name}
+      </span>
+
+      <button
+        onClick={handleLogout}
+        className="btn btn-error text-white"
+      >
+        Logout
+      </button>
+    </>
+  ) : (
+    <Link href="/login" className="btn btn-primary">
+      Login
+    </Link>
+  )}
+</div>
 </div>
 
    </div>

@@ -14,10 +14,10 @@ const client = new MongoClient(uri,{
 
 // }
 const clientPromise = client.connect();
-console.log(
-  "Connected to database:",
-  client.db("users").databaseName
-);
+// console.log(
+//   "Connected to database:",
+//   client.db("users").databaseName
+// );
 export default clientPromise;
 
 

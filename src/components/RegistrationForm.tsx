@@ -3,6 +3,7 @@ import { postUser } from "@/actions/server/auth";
 import { authClient } from "@/app/lib/auth-client";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { FcGoogle } from "react-icons/fc";
@@ -14,7 +15,7 @@ export default function RegisterPage() {
   phone: "",
   password: "",
 });
-
+const router = useRouter()
 const [loading, setLoading] = useState(false);
 const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
   const { name, value } = e.target;
@@ -43,13 +44,15 @@ const handleRegister = async (
   try {
 
 
-    
+
     const { data, error } = await authClient.signUp.email({
       name: formData.name,
       email: formData.email,
       password: formData.password,
-      callbackURL: "/dashboard", // optional
+      callbackURL: "/login", // optional
+      
     });
+    router.push("/login")
 
     if (error) {
       toast.error(error.message || "Something went wrong");
@@ -59,7 +62,7 @@ const handleRegister = async (
     console.log(data);
 
     toast.success("Registration successful!");
-
+router.push("/login")
   } catch (err) {
     console.error(err);
     toast.error("Something went wrong");
