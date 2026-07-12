@@ -1,4 +1,6 @@
 "use client"
+
+import { FaShoppingCart, FaHeart } from "react-icons/fa";
 import { authClient } from "@/app/lib/auth-client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -63,7 +65,25 @@ const handleLogout = async () => {
     </ul>
   </div>
   {/* nav end */}
-  <div className="navbar-end gap-3">
+ <div className="navbar-end gap-4">
+  {/* Wishlist */}
+  <Link href="/wishlist" className="relative btn btn-ghost btn-circle">
+    <FaHeart className="text-xl text-red-500" />
+
+    <span className="badge badge-sm badge-error absolute -top-1 -right-1">
+      2
+    </span>
+  </Link>
+
+  {/* Cart */}
+  <Link href="/cart" className="relative btn btn-ghost btn-circle">
+    <FaShoppingCart className="text-xl" />
+
+    <span className="badge badge-sm badge-primary absolute -top-1 -right-1">
+      3
+    </span>
+  </Link>
+
   {isPending ? (
     <span className="loading loading-spinner loading-sm"></span>
   ) : session ? (
