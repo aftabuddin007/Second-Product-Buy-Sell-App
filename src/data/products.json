@@ -1,0 +1,1491 @@
+
+[
+  {
+    "id": "P1001",
+    "title": "Apple iPhone 14 Pro 128GB - Used",
+    "category": "Mobiles",
+    "subcategory": "Smartphones",
+    "price": {
+      "sellingPrice": 65000,
+      "originalPrice": 135000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "1 Year 2 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Selling my iPhone 14 Pro in excellent condition. No scratches on the display. Always used with tempered glass and protective case. Battery health is 91%. Original box and charger included. Bought from Apple authorized reseller in Dhaka.",
+    "specifications": {
+      "brand": "Apple",
+      "model": "iPhone 14 Pro",
+      "storage": "128GB",
+      "ram": "6GB",
+      "color": "Deep Purple",
+      "batteryHealth": "91%",
+      "display": "6.1-inch Super Retina XDR",
+      "processor": "A16 Bionic",
+      "network": ["5G", "4G VoLTE", "Wi-Fi", "Bluetooth"],
+      "operatingSystem": "iOS 18"
+    },
+    "images": [
+      {"id": 1, "url": "/images/products/iphone/front.jpg", "type": "Front"},
+      {"id": 2, "url": "/images/products/iphone/back.jpg", "type": "Back"},
+      {"id": 3, "url": "/images/products/iphone/side.jpg", "type": "Side"},
+      {"id": 4, "url": "/images/products/iphone/accessories.jpg", "type": "Accessories"}
+    ],
+    "includedItems": ["Original Box", "Original Charger", "USB Cable", "Invoice"],
+    "defects": ["Minor scratch on the bottom frame"],
+    "reasonForSelling": "Upgraded to a newer model",
+    "seller": {
+      "id": "U203",
+      "name": "John David",
+      "verified": true,
+      "rating": 4.8,
+      "totalReviews": 156,
+      "memberSince": "2022",
+      "responseTime": "Usually replies within 15 minutes",
+      "phone": "+88017XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Gulshan",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": false,
+      "shippingAvailable": true,
+      "shippingCost": 200
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-10",
+      "lastUpdated": "2026-07-12",
+      "views": 245,
+      "likes": 38
+    },
+    "warranty": {
+      "available": false,
+      "expiryDate": null
+    },
+    "tags": ["iphone", "apple", "5g", "used", "smartphone", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check IMEI number before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1002",
+    "title": "Samsung Galaxy S23 Ultra 256GB",
+    "category": "Mobiles",
+    "subcategory": "Smartphones",
+    "price": {
+      "sellingPrice": 85000,
+      "originalPrice": 165000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Good",
+      "usage": "8 Months",
+      "workingCondition": "100%",
+      "repairHistory": "Display replaced once from Samsung Service Center, Dhaka"
+    },
+    "description": "Samsung Galaxy S23 Ultra in good condition. One minor scratch on the screen. S Pen included. Battery backup is decent. Official Samsung Bangladesh warranty unit.",
+    "specifications": {
+      "brand": "Samsung",
+      "model": "Galaxy S23 Ultra",
+      "storage": "256GB",
+      "ram": "12GB",
+      "color": "Phantom Black",
+      "batteryHealth": "94%",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "processor": "Snapdragon 8 Gen 2",
+      "network": ["5G", "4G VoLTE", "Wi-Fi 6E", "Bluetooth 5.3"],
+      "operatingSystem": "Android 14"
+    },
+    "images": [
+      {"id": 1, "url": "/images/products/samsung/front.jpg", "type": "Front"},
+      {"id": 2, "url": "/images/products/samsung/back.jpg", "type": "Back"},
+      {"id": 3, "url": "/images/products/samsung/side.jpg", "type": "Side"}
+    ],
+    "includedItems": ["S Pen", "USB Cable", "SIM Ejector Tool", "Charger"],
+    "defects": ["Minor scratch on screen", "Slight wear on back panel"],
+    "reasonForSelling": "Switching to iOS",
+    "seller": {
+      "id": "U204",
+      "name": "Priya Sharma",
+      "verified": true,
+      "rating": 4.9,
+      "totalReviews": 234,
+      "memberSince": "2021",
+      "responseTime": "Usually replies within 10 minutes",
+      "phone": "+88018XXXXXXXX"
+    },
+    "location": {
+      "city": "Chittagong",
+      "area": "Agrabad",
+      "state": "Chittagong Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 150
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Rocket", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-11",
+      "lastUpdated": "2026-07-13",
+      "views": 189,
+      "likes": 27
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-03-15"
+    },
+    "tags": ["samsung", "android", "5g", "s-pen", "flagship", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check IMEI number before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1003",
+    "title": "OnePlus 11 5G 256GB - Like New",
+    "category": "Mobiles",
+    "subcategory": "Smartphones",
+    "price": {
+      "sellingPrice": 45000,
+      "originalPrice": 89999,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "6 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "OnePlus 11 in pristine condition. Used carefully with case and screen protector. No scratches or dents. Fast charging adapter included. Official OnePlus Bangladesh unit.",
+    "specifications": {
+      "brand": "OnePlus",
+      "model": "11",
+      "storage": "256GB",
+      "ram": "16GB",
+      "color": "Titan Black",
+      "batteryHealth": "98%",
+      "display": "6.7-inch Fluid AMOLED",
+      "processor": "Snapdragon 8 Gen 2",
+      "network": ["5G", "4G VoLTE", "Wi-Fi", "Bluetooth"],
+      "operatingSystem": "Android 14"
+    },
+    "includedItems": ["Fast Charger", "USB Cable", "Case", "SIM Tool"],
+    "defects": [],
+    "reasonForSelling": "Received as gift, already have a phone",
+    "seller": {
+      "id": "U205",
+      "name": "Rahul Verma",
+      "verified": true,
+      "rating": 4.7,
+      "totalReviews": 89,
+      "memberSince": "2023",
+      "responseTime": "Usually replies within 20 minutes",
+      "phone": "+88019XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Mirpur",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": false,
+      "shippingAvailable": true,
+      "shippingCost": 180
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-12",
+      "lastUpdated": "2026-07-13",
+      "views": 312,
+      "likes": 45
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-01-20"
+    },
+    "tags": ["oneplus", "android", "5g", "snapdragon", "fast-charging", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check IMEI number before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1004",
+    "title": "MacBook Air M1 2020 256GB",
+    "category": "Laptops",
+    "subcategory": "MacBooks",
+    "price": {
+      "sellingPrice": 75000,
+      "originalPrice": 130000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Good",
+      "usage": "2 Years 3 Months",
+      "workingCondition": "100%",
+      "repairHistory": "Battery replaced once from Apple Service Center, Dhaka"
+    },
+    "description": "MacBook Air M1 in good working condition. Battery cycle count is 185. Works perfectly for programming and day-to-day tasks. Minor wear on the keyboard. Official Bangladesh unit with original invoice.",
+    "specifications": {
+      "brand": "Apple",
+      "model": "MacBook Air M1",
+      "storage": "256GB SSD",
+      "ram": "8GB",
+      "color": "Space Gray",
+      "display": "13.3-inch Retina",
+      "processor": "Apple M1 Chip",
+      "operatingSystem": "macOS Sonoma",
+      "batteryLife": "Up to 15 hours"
+    },
+    "images": [
+      {"id": 1, "url": "/images/products/macbook/lid.jpg", "type": "Front"},
+      {"id": 2, "url": "/images/products/macbook/open.jpg", "type": "Keyboard"},
+      {"id": 3, "url": "/images/products/macbook/side.jpg", "type": "Side"}
+    ],
+    "includedItems": ["Original Charger", "USB-C Cable", "Box", "Invoice"],
+    "defects": ["Minor keyboard shine", "Small scratch on bottom lid"],
+    "reasonForSelling": "Upgraded to M3 MacBook Pro",
+    "seller": {
+      "id": "U206",
+      "name": "Sneha Patel",
+      "verified": true,
+      "rating": 4.9,
+      "totalReviews": 312,
+      "memberSince": "2019",
+      "responseTime": "Usually replies within 5 minutes",
+      "phone": "+88017XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Banani",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 250
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-09",
+      "lastUpdated": "2026-07-13",
+      "views": 567,
+      "likes": 78
+    },
+    "warranty": {
+      "available": false,
+      "expiryDate": null
+    },
+    "tags": ["macbook", "apple", "m1", "laptop", "programming", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with Apple before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1005",
+    "title": "Dell XPS 13 9310 Laptop - Used",
+    "category": "Laptops",
+    "subcategory": "Windows Laptops",
+    "price": {
+      "sellingPrice": 62000,
+      "originalPrice": 150000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "1 Year",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Dell XPS 13 in excellent condition. The screen is stunning with almost no bezels. Perfect for students and professionals. Lightweight and powerful. Dell Bangladesh authorized unit.",
+    "specifications": {
+      "brand": "Dell",
+      "model": "XPS 13 9310",
+      "storage": "512GB SSD",
+      "ram": "16GB",
+      "color": "Platinum Silver",
+      "display": "13.4-inch 4K Touch",
+      "processor": "Intel Core i7-1165G7",
+      "operatingSystem": "Windows 11 Pro"
+    },
+    "includedItems": ["Charger", "USB-C Adapter", "Box", "Invoice"],
+    "defects": [],
+    "reasonForSelling": "Moving to another country",
+    "seller": {
+      "id": "U207",
+      "name": "Amit Kumar",
+      "verified": true,
+      "rating": 4.6,
+      "totalReviews": 145,
+      "memberSince": "2020",
+      "responseTime": "Usually replies within 30 minutes",
+      "phone": "+88018XXXXXXXX"
+    },
+    "location": {
+      "city": "Chittagong",
+      "area": "Nasirabad",
+      "state": "Chittagong Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 300
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Rocket", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-08",
+      "lastUpdated": "2026-07-12",
+      "views": 423,
+      "likes": 56
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-06-30"
+    },
+    "tags": ["dell", "xps", "windows", "laptop", "business", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with Dell before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1006",
+    "title": "Sony WH-1000XM4 Wireless Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "price": {
+      "sellingPrice": 22000,
+      "originalPrice": 40000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Good",
+      "usage": "10 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Sony WH-1000XM4 noise-cancelling headphones. Industry-leading ANC. Battery life is excellent. Comes with original carrying case. Minor wear on ear pads. Bought from Sony Bangladesh.",
+    "specifications": {
+      "brand": "Sony",
+      "model": "WH-1000XM4",
+      "color": "Black",
+      "connectivity": ["Bluetooth 5.0", "NFC", "3.5mm Jack"],
+      "batteryLife": "30 hours",
+      "features": ["Noise Cancelling", "LDAC", "Multipoint Connection"]
+    },
+    "includedItems": ["Carrying Case", "3.5mm Cable", "USB-C Cable", "Aircraft Adapter"],
+    "defects": ["Slight wear on ear pads"],
+    "reasonForSelling": "Upgraded to XM5",
+    "seller": {
+      "id": "U208",
+      "name": "Meera Nair",
+      "verified": false,
+      "rating": 4.4,
+      "totalReviews": 67,
+      "memberSince": "2022",
+      "responseTime": "Usually replies within 1 hour",
+      "phone": "+88019XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Dhanmondi",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 100
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-11",
+      "lastUpdated": "2026-07-13",
+      "views": 234,
+      "likes": 32
+    },
+    "warranty": {
+      "available": false,
+      "expiryDate": null
+    },
+    "tags": ["sony", "headphones", "noise-cancelling", "wireless", "audio", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with Sony before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1007",
+    "title": "Canon EOS R6 Mirrorless Camera - Used",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "price": {
+      "sellingPrice": 120000,
+      "originalPrice": 220000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "5 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Canon EOS R6 full-frame mirrorless camera. Low shutter count (~3500). Perfect for photography enthusiasts. Includes extra battery and memory card. Bought from Canon Bangladesh.",
+    "specifications": {
+      "brand": "Canon",
+      "model": "EOS R6",
+      "megapixels": "20.1 MP",
+      "sensor": "Full-frame CMOS",
+      "processor": "DIGIC X",
+      "shutterCount": 3500,
+      "lensMount": "RF Mount",
+      "videoResolution": "4K 60fps"
+    },
+    "includedItems": ["Body Cap", "Battery", "Battery Charger", "Strap", "Extra Battery", "64GB SD Card"],
+    "defects": [],
+    "reasonForSelling": "Switching to Sony system",
+    "seller": {
+      "id": "U209",
+      "name": "Vikram Singh",
+      "verified": true,
+      "rating": 4.9,
+      "totalReviews": 412,
+      "memberSince": "2018",
+      "responseTime": "Usually replies within 15 minutes",
+      "phone": "+88017XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Uttara",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": false,
+      "shippingAvailable": true,
+      "shippingCost": 500
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-10",
+      "lastUpdated": "2026-07-13",
+      "views": 678,
+      "likes": 89
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-02-28"
+    },
+    "tags": ["canon", "camera", "mirrorless", "full-frame", "photography", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with Canon before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1008",
+    "title": "Nike Air Jordan 1 High OG 'Chicago' - Authentic",
+    "category": "Fashion",
+    "subcategory": "Sneakers",
+    "price": {
+      "sellingPrice": 35000,
+      "originalPrice": 65000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Good",
+      "usage": "6 Months",
+      "workingCondition": "100%",
+      "repairHistory": "Cleaned professionally"
+    },
+    "description": "Nike Air Jordan 1 High OG in Chicago colorway. Worn a few times. No major defects. Original box included. Comes with receipt. Authentic pair from Nike Bangladesh.",
+    "specifications": {
+      "brand": "Nike",
+      "model": "Air Jordan 1 High OG",
+      "colorway": "Chicago",
+      "size": "US 10 / UK 9.5 / EU 44",
+      "material": "Leather",
+      "releaseYear": 2022,
+      "authenticity": "100% Authentic"
+    },
+    "includedItems": ["Original Box", "Receipt", "Extra Laces", "Dust Bag"],
+    "defects": ["Slight creasing on toe box", "Minor dirt on outsole"],
+    "reasonForSelling": "Not wearing them enough",
+    "seller": {
+      "id": "U210",
+      "name": "Arjun Reddy",
+      "verified": true,
+      "rating": 4.7,
+      "totalReviews": 189,
+      "memberSince": "2021",
+      "responseTime": "Usually replies within 25 minutes",
+      "phone": "+88018XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Gulshan",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 150
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-09",
+      "lastUpdated": "2026-07-12",
+      "views": 789,
+      "likes": 123
+    },
+    "warranty": {
+      "available": false,
+      "expiryDate": null
+    },
+    "tags": ["nike", "jordan", "sneakers", "chicago", "limited-edition", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check authenticity details before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1009",
+    "title": "Rolex Submariner Date 116610LN - Luxury",
+    "category": "Fashion",
+    "subcategory": "Watches",
+    "price": {
+      "sellingPrice": 1250000,
+      "originalPrice": 1400000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "1 Year",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Rolex Submariner Date in excellent condition. Full set including box and papers. Keeps perfect time. No scratches on crystal. Authorized dealer purchase.",
+    "specifications": {
+      "brand": "Rolex",
+      "model": "Submariner Date",
+      "reference": "116610LN",
+      "caseSize": "40mm",
+      "material": "904L Stainless Steel",
+      "movement": "Automatic Calibre 3135",
+      "bezel": "Ceramic Black",
+      "crystal": "Sapphire"
+    },
+    "includedItems": ["Original Box", "Warranty Card", "Instruction Manual", "Tags"],
+    "defects": ["Minor desk diving marks on bracelet"],
+    "reasonForSelling": "Upgrading to newer model",
+    "seller": {
+      "id": "U211",
+      "name": "Ravi Shankar",
+      "verified": true,
+      "rating": 5.0,
+      "totalReviews": 56,
+      "memberSince": "2017",
+      "responseTime": "Usually replies within 30 minutes",
+      "phone": "+88017XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Baridhara",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": false,
+      "shippingAvailable": false,
+      "shippingCost": 0
+    },
+    "paymentMethods": ["Cash", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-08",
+      "lastUpdated": "2026-07-13",
+      "views": 1234,
+      "likes": 156
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-07-01"
+    },
+    "tags": ["rolex", "submariner", "luxury", "watch", "automatic", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check authenticity with Rolex authorized dealer.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1010",
+    "title": "Apple AirPods Pro 2nd Gen with USB-C",
+    "category": "Electronics",
+    "subcategory": "Earbuds",
+    "price": {
+      "sellingPrice": 16000,
+      "originalPrice": 33000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "4 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "AirPods Pro 2nd Gen with USB-C. Excellent condition. All original accessories included. Active Noise Cancellation works great. Apple Bangladesh unit.",
+    "specifications": {
+      "brand": "Apple",
+      "model": "AirPods Pro 2nd Gen",
+      "color": "White",
+      "connectivity": "Bluetooth 5.3",
+      "batteryLife": "6 hours (ANC on)",
+      "features": ["Active Noise Cancellation", "Transparency Mode", "Adaptive Audio"]
+    },
+    "includedItems": ["Charging Case", "USB-C Cable", "Silicone Tips (S,M,L)"],
+    "defects": [],
+    "reasonForSelling": "Received as gift, already have one",
+    "seller": {
+      "id": "U212",
+      "name": "Deepa Krishnan",
+      "verified": true,
+      "rating": 4.8,
+      "totalReviews": 234,
+      "memberSince": "2021",
+      "responseTime": "Usually replies within 10 minutes",
+      "phone": "+88019XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Mohakhali",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 80
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-13",
+      "lastUpdated": "2026-07-13",
+      "views": 345,
+      "likes": 67
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-03-20"
+    },
+    "tags": ["apple", "airpods", "earbuds", "wireless", "noise-cancelling", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with Apple before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1011",
+    "title": "iPad Pro 12.9 M2 256GB WiFi - Used",
+    "category": "Electronics",
+    "subcategory": "Tablets",
+    "price": {
+      "sellingPrice": 95000,
+      "originalPrice": 175000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "7 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "iPad Pro 12.9 M2 in excellent condition. No scratches. Perfect for artists and professionals. Apple Pencil and Magic Keyboard can be sold separately. Apple Bangladesh unit.",
+    "specifications": {
+      "brand": "Apple",
+      "model": "iPad Pro 12.9",
+      "storage": "256GB",
+      "ram": "8GB",
+      "color": "Space Gray",
+      "display": "12.9-inch Liquid Retina XDR",
+      "processor": "Apple M2",
+      "operatingSystem": "iPadOS 17"
+    },
+    "includedItems": ["USB-C Cable", "20W Adapter", "Invoice"],
+    "defects": [],
+    "reasonForSelling": "Rarely use it",
+    "seller": {
+      "id": "U213",
+      "name": "Kiran Joshi",
+      "verified": true,
+      "rating": 4.9,
+      "totalReviews": 156,
+      "memberSince": "2020",
+      "responseTime": "Usually replies within 15 minutes",
+      "phone": "+88018XXXXXXXX"
+    },
+    "location": {
+      "city": "Chittagong",
+      "area": "Pahartali",
+      "state": "Chittagong Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 200
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Rocket", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-11",
+      "lastUpdated": "2026-07-13",
+      "views": 456,
+      "likes": 54
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-01-15"
+    },
+    "tags": ["ipad", "apple", "m2", "tablet", "productivity", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with Apple before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1012",
+    "title": "PlayStation 5 Digital Edition - Used",
+    "category": "Gaming",
+    "subcategory": "Consoles",
+    "price": {
+      "sellingPrice": 48000,
+      "originalPrice": 62000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Good",
+      "usage": "8 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "PS5 Digital Edition in good condition. Comes with all cables. Rarely used. Fantastic performance and loading times. Official Sony Bangladesh unit.",
+    "specifications": {
+      "brand": "Sony",
+      "model": "PlayStation 5 Digital Edition",
+      "storage": "825GB SSD",
+      "connectivity": ["Wi-Fi 6", "Bluetooth 5.1", "Ethernet"],
+      "features": ["4K Gaming", "Ray Tracing", "Tempest 3D Audio"]
+    },
+    "includedItems": ["DualSense Controller", "HDMI Cable", "Power Cable", "USB Cable"],
+    "defects": ["Small dent on the back panel"],
+    "reasonForSelling": "Switching to PC gaming",
+    "seller": {
+      "id": "U214",
+      "name": "Gaurav Mehta",
+      "verified": true,
+      "rating": 4.5,
+      "totalReviews": 78,
+      "memberSince": "2022",
+      "responseTime": "Usually replies within 45 minutes",
+      "phone": "+88017XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Bashundhara",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 300
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-10",
+      "lastUpdated": "2026-07-12",
+      "views": 567,
+      "likes": 89
+    },
+    "warranty": {
+      "available": false,
+      "expiryDate": null
+    },
+    "tags": ["ps5", "playstation", "gaming", "console", "sony", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with Sony before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1013",
+    "title": "Nintendo Switch OLED Model - Like New",
+    "category": "Gaming",
+    "subcategory": "Handhelds",
+    "price": {
+      "sellingPrice": 30000,
+      "originalPrice": 48000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "3 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Nintendo Switch OLED model. Barely used. Includes The Legend of Zelda: Breath of the Wild game. Comes with original dock and accessories. Official Nintendo unit.",
+    "specifications": {
+      "brand": "Nintendo",
+      "model": "Switch OLED",
+      "screen": "7-inch OLED",
+      "storage": "64GB",
+      "batteryLife": "4.5 - 9 hours",
+      "connectivity": ["Bluetooth", "Wi-Fi", "USB-C"]
+    },
+    "includedItems": ["Dock", "Joy-Con (Neon Red/Blue)", "HDMI Cable", "Power Adapter", "Game - Zelda BOTW"],
+    "defects": [],
+    "reasonForSelling": "Not enough time to play",
+    "seller": {
+      "id": "U215",
+      "name": "Ananya Reddy",
+      "verified": false,
+      "rating": 4.3,
+      "totalReviews": 45,
+      "memberSince": "2023",
+      "responseTime": "Usually replies within 1 hour",
+      "phone": "+88019XXXXXXXX"
+    },
+    "location": {
+      "city": "Sylhet",
+      "area": "Zindabazar",
+      "state": "Sylhet Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 150
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-12",
+      "lastUpdated": "2026-07-13",
+      "views": 234,
+      "likes": 45
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-04-20"
+    },
+    "tags": ["nintendo", "switch", "gaming", "handheld", "zelda", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with Nintendo before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1014",
+    "title": "Samsung 55-inch QLED 4K Smart TV",
+    "category": "Electronics",
+    "subcategory": "Televisions",
+    "price": {
+      "sellingPrice": 58000,
+      "originalPrice": 125000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "1 Year 2 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Samsung QLED TV with stunning picture quality. No dead pixels. Works perfectly. Wall mount bracket included. Used in a smoke-free home. Samsung Bangladesh unit.",
+    "specifications": {
+      "brand": "Samsung",
+      "model": "Q60C",
+      "screenSize": "55-inch",
+      "resolution": "4K 3840x2160",
+      "panelType": "QLED",
+      "refreshRate": "60Hz",
+      "smartFeatures": "Tizen OS",
+      "audio": "20W Dual Speakers"
+    },
+    "includedItems": ["Power Cable", "Remote Control", "Wall Mount Bracket", "User Manual"],
+    "defects": [],
+    "reasonForSelling": "Upgrading to a larger size",
+    "seller": {
+      "id": "U216",
+      "name": "Suresh Babu",
+      "verified": true,
+      "rating": 4.7,
+      "totalReviews": 213,
+      "memberSince": "2019",
+      "responseTime": "Usually replies within 30 minutes",
+      "phone": "+88018XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Mirpur",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": false,
+      "shippingCost": 0
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-09",
+      "lastUpdated": "2026-07-13",
+      "views": 345,
+      "likes": 67
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-09-15"
+    },
+    "tags": ["samsung", "qled", "4k", "smart-tv", "television", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with Samsung before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1015",
+    "title": "Dyson V15 Detect Cordless Vacuum Cleaner",
+    "category": "Home Appliances",
+    "subcategory": "Vacuum Cleaners",
+    "price": {
+      "sellingPrice": 55000,
+      "originalPrice": 95000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "8 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Dyson V15 Detect cordless vacuum. Laser dust detection. Excellent suction power. Filters cleaned regularly. Dyson Bangladesh unit with original invoice.",
+    "specifications": {
+      "brand": "Dyson",
+      "model": "V15 Detect",
+      "technology": "Cordless Vacuum",
+      "runTime": "Up to 60 minutes",
+      "features": ["Laser Detect", "LCD Display", "HEPA Filtration"],
+      "accessories": ["High Torque Cleaner Head", "Crevis Tool", "Combination Tool", "Mini Motorized Tool"]
+    },
+    "includedItems": ["Charging Dock", "Power Adapter", "Original Box", "Invoice"],
+    "defects": [],
+    "reasonForSelling": "Moving to a smaller apartment",
+    "seller": {
+      "id": "U217",
+      "name": "Tahsin Ahmed",
+      "verified": true,
+      "rating": 4.9,
+      "totalReviews": 67,
+      "memberSince": "2021",
+      "responseTime": "Usually replies within 20 minutes",
+      "phone": "+88017XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Banani",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 350
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-10",
+      "lastUpdated": "2026-07-13",
+      "views": 234,
+      "likes": 45
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-11-30"
+    },
+    "tags": ["dyson", "vacuum", "cleaning", "cordless", "home-appliance", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with Dyson before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1016",
+    "title": "LG 2024 32-inch QHD Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "price": {
+      "sellingPrice": 28000,
+      "originalPrice": 50000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "5 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "LG QHD monitor. Perfect for graphic design, video editing, and productivity. IPS panel with accurate colors. No dead pixels. LG Bangladesh unit.",
+    "specifications": {
+      "brand": "LG",
+      "model": "32UP55N",
+      "screenSize": "32-inch",
+      "resolution": "QHD 2560x1440",
+      "refreshRate": "60Hz",
+      "panelType": "IPS",
+      "colorGamut": "95% DCI-P3",
+      "ports": ["HDMI", "DisplayPort", "USB-C"]
+    },
+    "includedItems": ["Power Cable", "HDMI Cable", "Stand"],
+    "defects": [],
+    "reasonForSelling": "Upgrading to 4K monitor",
+    "seller": {
+      "id": "U218",
+      "name": "Nadia Islam",
+      "verified": true,
+      "rating": 4.6,
+      "totalReviews": 89,
+      "memberSince": "2022",
+      "responseTime": "Usually replies within 15 minutes",
+      "phone": "+88019XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Dhanmondi",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 250
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-12",
+      "lastUpdated": "2026-07-13",
+      "views": 189,
+      "likes": 34
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-02-28"
+    },
+    "tags": ["lg", "monitor", "qhd", "ips", "graphic-design", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check serial number with LG before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1017",
+    "title": "Xiaomi Mi Electric Scooter Pro 2",
+    "category": "Vehicles",
+    "subcategory": "Electric Scooters",
+    "price": {
+      "sellingPrice": 35000,
+      "originalPrice": 65000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Good",
+      "usage": "1 Year 2 Months",
+      "workingCondition": "95%",
+      "repairHistory": "Tire replaced once"
+    },
+    "description": "Xiaomi Mi Electric Scooter Pro 2. Good condition. Battery still holds decent charge. Perfect for commuting in Dhaka city. Xiaomi Bangladesh unit.",
+    "specifications": {
+      "brand": "Xiaomi",
+      "model": "Mi Electric Scooter Pro 2",
+      "maxSpeed": "25 km/h",
+      "range": "Up to 45 km",
+      "battery": "12.8Ah",
+      "motor": "300W",
+      "tires": "8.5-inch Air-filled",
+      "weight": "14.2kg"
+    },
+    "includedItems": ["Charger", "Tool Kit", "User Manual"],
+    "defects": ["Minor scratches on the deck", "Slight wear on tires"],
+    "reasonForSelling": "Bought a car",
+    "seller": {
+      "id": "U219",
+      "name": "Kamal Hossain",
+      "verified": true,
+      "rating": 4.4,
+      "totalReviews": 56,
+      "memberSince": "2022",
+      "responseTime": "Usually replies within 30 minutes",
+      "phone": "+88018XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Uttara",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": false,
+      "shippingCost": 0
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-11",
+      "lastUpdated": "2026-07-13",
+      "views": 456,
+      "likes": 67
+    },
+    "warranty": {
+      "available": false,
+      "expiryDate": null
+    },
+    "tags": ["xiaomi", "electric-scooter", "commute", "portable", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check battery condition and charging.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1018",
+    "title": "Godrej 285L 3-Star Frost-Free Refrigerator",
+    "category": "Home Appliances",
+    "subcategory": "Refrigerators",
+    "price": {
+      "sellingPrice": 32000,
+      "originalPrice": 55000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Good",
+      "usage": "1 Year 8 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Godrej 3-star frost-free refrigerator. Triple cooling technology. Works perfectly. Cleaned regularly. Godrej Bangladesh unit with original invoice.",
+    "specifications": {
+      "brand": "Godrej",
+      "model": "RSD 285",
+      "capacity": "285 Liters",
+      "energyRating": "3-Star",
+      "type": "Frost-Free",
+      "technology": "Triple Cooling",
+      "compressor": "Inverter Compressor"
+    },
+    "includedItems": ["Ice Tray", "User Manual", "Invoice", "Warranty Card"],
+    "defects": ["Small dent on the side panel"],
+    "reasonForSelling": "Moving abroad",
+    "seller": {
+      "id": "U220",
+      "name": "Shahidul Islam",
+      "verified": true,
+      "rating": 4.5,
+      "totalReviews": 123,
+      "memberSince": "2020",
+      "responseTime": "Usually replies within 1 hour",
+      "phone": "+88017XXXXXXXX"
+    },
+    "location": {
+      "city": "Chittagong",
+      "area": "Kotwali",
+      "state": "Chittagong Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": false,
+      "shippingCost": 0
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-09",
+      "lastUpdated": "2026-07-13",
+      "views": 289,
+      "likes": 43
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-11-10"
+    },
+    "tags": ["godrej", "refrigerator", "frost-free", "home-appliance", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check compressor and cooling before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1019",
+    "title": "Casio G-Shock GA-2100-1A1DR Black Watch",
+    "category": "Fashion",
+    "subcategory": "Watches",
+    "price": {
+      "sellingPrice": 12000,
+      "originalPrice": 22000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Excellent",
+      "usage": "4 Months",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Casio G-Shock GA-2100 in all-black. Worn rarely. Perfect condition. Excellent durability. Casio authorized dealer in Bangladesh.",
+    "specifications": {
+      "brand": "Casio",
+      "model": "GA-2100-1A1DR",
+      "color": "Black",
+      "movement": "Quartz",
+      "waterResistance": "200m",
+      "features": ["Dual Time", "Stopwatch", "Timer", "Light"],
+      "caseSize": "45.4mm"
+    },
+    "includedItems": ["Original Box", "Tag", "Warranty Card", "User Manual"],
+    "defects": [],
+    "reasonForSelling": "Not being used",
+    "seller": {
+      "id": "U221",
+      "name": "Farhan Ahmed",
+      "verified": true,
+      "rating": 4.8,
+      "totalReviews": 178,
+      "memberSince": "2021",
+      "responseTime": "Usually replies within 15 minutes",
+      "phone": "+88019XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Tejgaon",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 80
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-13",
+      "lastUpdated": "2026-07-13",
+      "views": 456,
+      "likes": 78
+    },
+    "warranty": {
+      "available": true,
+      "expiryDate": "2027-03-15"
+    },
+    "tags": ["casio", "g-shock", "watch", "casual", "durable", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check authenticity before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  },
+  {
+    "id": "P1020",
+    "title": "Canon Pixma G3010 All-in-One Printer",
+    "category": "Electronics",
+    "subcategory": "Printers",
+    "price": {
+      "sellingPrice": 18000,
+      "originalPrice": 32000,
+      "currency": "BDT",
+      "negotiable": true
+    },
+    "condition": {
+      "grade": "Good",
+      "usage": "1 Year",
+      "workingCondition": "100%",
+      "repairHistory": "No Repairs"
+    },
+    "description": "Canon Pixma G3010 ink tank printer. Print, scan, copy. Refillable ink tanks. Works perfectly. Canon Bangladesh unit with invoice.",
+    "specifications": {
+      "brand": "Canon",
+      "model": "Pixma G3010",
+      "type": "Ink Tank Printer",
+      "functions": ["Print", "Scan", "Copy"],
+      "connectivity": ["USB", "Wi-Fi"],
+      "inkCapacity": "6000 pages (black), 7000 pages (color)",
+      "paperSizes": ["A4", "A5", "B5", "Envelope"]
+    },
+    "includedItems": ["Power Cord", "USB Cable", "Ink Bottles (CMYK)", "User Manual"],
+    "defects": ["Minor wear on paper tray"],
+    "reasonForSelling": "Not needed anymore",
+    "seller": {
+      "id": "U222",
+      "name": "Rubina Akhter",
+      "verified": true,
+      "rating": 4.3,
+      "totalReviews": 92,
+      "memberSince": "2022",
+      "responseTime": "Usually replies within 40 minutes",
+      "phone": "+88018XXXXXXXX"
+    },
+    "location": {
+      "city": "Dhaka",
+      "area": "Motijheel",
+      "state": "Dhaka Division",
+      "country": "Bangladesh"
+    },
+    "delivery": {
+      "pickup": true,
+      "homeDelivery": true,
+      "shippingAvailable": true,
+      "shippingCost": 180
+    },
+    "paymentMethods": ["Cash", "bKash", "Nagad", "Rocket", "Bank Transfer"],
+    "productStatus": "Available",
+    "posted": {
+      "date": "2026-07-10",
+      "lastUpdated": "2026-07-13",
+      "views": 167,
+      "likes": 28
+    },
+    "warranty": {
+      "available": false,
+      "expiryDate": null
+    },
+    "tags": ["canon", "printer", "ink-tank", "office", "home", "bd"],
+    "safetyTips": [
+      "Meet in a public place like a shopping mall.",
+      "Inspect the product before payment.",
+      "Avoid advance payments or partial payments.",
+      "Check print quality before buying.",
+      "Report suspicious listings to authorities."
+    ]
+  }
+]
