@@ -51,6 +51,9 @@ const handleLogout = async () => {
          <li>
               <Link href="/" className={navLinkClass('/')}>Home</Link>
             </li>
+         <li>
+              <Link href="/products" className={navLinkClass('/products')}>Products</Link>
+            </li>
         
       </ul>
     </div>
@@ -61,6 +64,10 @@ const handleLogout = async () => {
        <li>
               <Link href="/" className={navLinkClass('/')}>Home</Link>
             </li>
+            <li>
+              <Link href="/products" className={navLinkClass('/products')}>Products</Link>
+            </li>
+        
      
     </ul>
   </div>
