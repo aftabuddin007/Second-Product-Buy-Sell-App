@@ -9,7 +9,7 @@ import toast from "react-hot-toast";
 export default function Header() {
 const pathname = usePathname();
 
- const navLinkClass = (path) =>
+ const navLinkClass = (path:any) =>
     pathname === path
       ? 'text-[#f5bf42] underline font-bold'
       : 'hover:text-[#f5bf42] hover:underline';
