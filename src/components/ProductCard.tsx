@@ -1,33 +1,77 @@
 "use client";
 
 import Image from "next/image";
-import { FaStar, FaMapMarkerAlt, FaCheckCircle } from "react-icons/fa";
+import { FaStar, FaMapMarkerAlt, FaCheckCircle, FaTag } from "react-icons/fa";
 
-export default function ProductCard({ product }) {
+interface Product {
+  id: string;
+  title: string;
+  category: string;
+  subcategory?: string;
+  productStatus: string;
+
+  price: {
+    sellingPrice: number;
+    originalPrice: number;
+    negotiable: boolean;
+  };
+
+  condition: {
+    grade: string;
+    workingCondition: string;
+  };
+
+  seller: {
+    name: string;
+    verified: boolean;
+    rating: number;
+    totalReviews: number;
+  };
+
+  location: {
+    city: string;
+  };
+
+  images: {
+    id: number;
+    url: string;
+    type: string;
+  }[];
+}
+
+interface ProductCardProps {
+  product: Product;
+}
+
+export default function ProductCard({ product }: ProductCardProps) {
   return (
-    <div className="card bg-base-100 shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl overflow-hidden">
+    <div className="card bg-base-100 shadow-lg hover:shadow-xl transition rounded-xl overflow-hidden">
 
-      {/* Product Image */}
+      {/* Image */}
       <figure className="relative h-60 bg-base-200">
-       <Image
-  src={product?.images?.[0]?.url || "/images/no-image.png"}
-  alt={product?.title || "Product"}
-  fill
-  className="object-cover"
-/>
+        <Image
+          src={product.images?.[0]?.url || "/images/no-image.png"}
+          alt={product.title}
+          fill
+          className="object-cover"
+        />
 
-        {/* Available Badge */}
-        <div className="absolute top-3 left-3 badge badge-success text-white">
+        <div className="absolute top-3 left-3 badge badge-success">
           {product.productStatus}
         </div>
 
-        {/* Condition Badge */}
         <div className="absolute top-3 right-3 badge badge-primary">
           {product.condition.grade}
         </div>
       </figure>
 
       <div className="card-body">
+
+        {/* Category */}
+        <div className="flex items-center gap-2 text-primary text-sm font-semibold">
+          <FaTag />
+          <span>{product.category}</span>
+        </div>
 
         {/* Title */}
         <h2 className="card-title line-clamp-2">
@@ -36,82 +80,56 @@ export default function ProductCard({ product }) {
 
         {/* Price */}
         <div className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-primary">
-            ৳ {product.price.sellingPrice.toLocaleString()}
+          <span className="text-2xl font-bold">
+            ৳{product.price.sellingPrice.toLocaleString()}
           </span>
 
-          <span className="line-through text-gray-400 text-sm">
-            ৳ {product.price.originalPrice.toLocaleString()}
+          <span className="line-through text-gray-400">
+            ৳{product.price.originalPrice.toLocaleString()}
           </span>
         </div>
 
+        {/* Negotiable */}
+        {product.price.negotiable && (
+          <div className="badge badge-warning badge-outline">
+            Negotiable
+          </div>
+        )}
+
         {/* Rating */}
-        <div className="flex items-center gap-1 text-yellow-500">
-          <FaStar />
+        <div className="flex items-center gap-1">
+          <FaStar className="text-yellow-400" />
+
           <span className="font-semibold">
             {product.seller.rating}
           </span>
 
-          <span className="text-gray-500 text-sm">
-            ({product.seller.totalReviews} reviews)
+          <span className="text-sm text-gray-500">
+            ({product.seller.totalReviews})
           </span>
         </div>
 
         {/* Condition */}
         <div className="flex justify-between text-sm">
-          <span>
-            <strong>Condition:</strong> {product.condition.grade}
-          </span>
-
-          <span>
-            {product.condition.workingCondition}
-          </span>
+          <span>{product.condition.grade}</span>
+          <span>{product.condition.workingCondition}</span>
         </div>
 
         {/* Location */}
-        <div className="flex items-center gap-2 text-gray-500 text-sm">
+        <div className="flex items-center gap-2 text-sm">
           <FaMapMarkerAlt />
           {product.location.city}
         </div>
 
-        {/* Seller */}
-        <div className="flex items-center justify-between mt-2">
+        
+        
 
-          <div className="flex items-center gap-2">
-
-            <div className="avatar placeholder">
-              <div className="bg-primary text-primary-content rounded-full w-10">
-                <span>{product.seller.name.charAt(0)}</span>
-              </div>
-            </div>
-
-            <div>
-              <p className="font-semibold">
-                {product.seller.name}
-              </p>
-
-              {product.seller.verified && (
-                <p className="flex items-center gap-1 text-success text-xs">
-                  <FaCheckCircle />
-                  Verified Seller
-                </p>
-              )}
-            </div>
-
-          </div>
-        </div>
-
-        {/* Buttons */}
         <div className="card-actions mt-4">
-
           <button className="btn btn-primary flex-1">
             View Details
           </button>
 
-          <button className="btn btn-outline">
-            ❤️
-          </button>
-
+          <button className="btn btn-outline">❤</button>
         </div>
 
       </div>
