@@ -7,7 +7,7 @@ const ProductSection = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <h2 className="text-center text-4xl font-bold text-black mb-10">
+      <h2 className="text-center text-4xl font-bold  mb-10">
         Our Products
       </h2>
 
